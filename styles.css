@@ -1,0 +1,84 @@
+/* Estilo del cuerpo */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    padding-top: 70px; /* Espacio para que el contenido no quede debajo del menú */
+}
+
+/* Estilo del contenedor de navegación */
+nav {
+    position: fixed; /* Menú fijo en la parte superior */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Color de fondo oscuro */
+    z-index: 1000; /* Asegura que el menú esté por encima del contenido */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para darle profundidad */
+}
+
+/* Estilo de la lista dentro del menú */
+nav ul {
+    display: flex; /* Muestra los elementos en línea */
+    justify-content: center; /* Centra el contenido */
+    list-style: none; /* Quita los puntos de la lista */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo de los elementos de la lista */
+nav ul li {
+    margin: 0 20px; /* Espacio entre los elementos */
+}
+
+/* Estilo de los enlaces dentro de los elementos de lista */
+nav ul li a {
+    color: white; /* Color del texto */
+    text-decoration: none; /* Quita el subrayado */
+    font-size: 1.2rem; /* Tamaño de fuente */
+    padding: 15px 0;
+    display: block; /* El enlace ocupa todo el espacio del <li> */
+    transition: color 0.3s; /* Transición suave al pasar el ratón */
+}
+
+/* Cambia el color del enlace al pasar el ratón */
+nav ul li a:hover {
+    color: #ffcc00; /* Color dorado al hacer hover */
+}
+
+/* Contenido de la página */
+.content {
+    padding: 20px;
+}
+
+/* Ejemplo de secciones */
+section {
+    margin: 20px 0;
+}
+
+/* Caja de bienvenida */
+.welcome-box {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Estilos para las columnas flotantes */
+.column {
+    width: 33.33%;
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: white;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.velas {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
